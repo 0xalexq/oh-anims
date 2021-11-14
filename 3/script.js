@@ -120,7 +120,7 @@ var uniforms = {
 
 var options = {
   perlin: {
-    time: 3.0,
+    time: 1.0,
     morph: 10.0,
     dnoise: 0.0
   },
