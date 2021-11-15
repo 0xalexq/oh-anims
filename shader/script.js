@@ -22,7 +22,7 @@ tex => {
   texture.minFilter = THREE.LinearFilter;
 
   loader.load(
-  'https://s3-us-west-2.amazonaws.com/s.cdpn.io/982762/500.png',
+  'https://raw.githubusercontent.com/mihailovskis/oh-anims/main/test-2.png',
   tex => {
     _500 = tex;
 

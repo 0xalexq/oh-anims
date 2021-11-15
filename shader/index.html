@@ -2,7 +2,6 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Thank You - 500</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -28,15 +27,15 @@
   #define PI 3.141592653589793
   #define TAU 6.283185307179586
 
-  const bool addNoise = true; // Whether to add noise to the rays
+ const bool addNoise = false; // Whether to add noise to the rays
   const float decay = .96; // the amount to decay each sample by
-  const float exposure = .35; // the screen exposure
-  const float lightStrength = 3.5;
-  const vec3 lightcolour = vec3(1.5, 1.6, .6); // the colour of the light
+  const float exposure = .5; // the screen exposure
+  const float lightStrength = 4.5;
+  const vec3 lightcolour = vec3(2., 1.0, 2.6); // the colour of the light
   const vec3 falloffcolour = vec3(.0, 1.0, 2.3); // the colour of the falloff
-  const vec3 bgcolour = vec3(.0, 0.25, .25); // the base colour of the render
+  const vec3 bgcolour = vec3(.0, 0.0, .0); // the base colour of the render
   const float falloff = .5;
-  const int samples = 12; // The number of samples to take
+  const int samples = 20; // The number of samples to take
   const float density = .98; // The density of the "smoke"
   const float weight = .25; // how heavily to apply each step of the supersample
   const int octaves = 1; // the number of octaves to generate in the FBM noise
